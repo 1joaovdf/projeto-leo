@@ -1,0 +1,105 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+}
+
+body{
+ background-image: linear-gradient(to right, rgb(95, 89, 175), rgb(78, 48, 245));
+ 
+}
+
+.container{
+    background-color: rgb(229, 204, 235);
+    width: 600px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+h1{
+    display: flex;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+img{
+    height: 25px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+
+}
+
+.check{
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.itemInput{
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    padding: 10px; 
+}
+
+.quantidade{
+        border: none;
+        border-radius: 5px;
+        width: 100px;
+        height: 40px;
+        padding: 10px; 
+        margin-left: 10px;
+    
+}
+
+.Adicionar{
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    background-color: darkgreen;
+    color: white;
+    font-size: 17px;
+    padding: 0 15px;
+    float: right;
+    cursor: pointer;
+}
+
+.Adicionar:hover{
+    opacity: 0.7;
+}
+
+.lista{
+    list-style: none;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.item{
+    background-color: rgb(212, 212, 212);
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.397);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.item:hover img{
+    opacity: 1;
+
+}
+
+.feito{
+    background-color: rgb(1, 112, 1);
+}
